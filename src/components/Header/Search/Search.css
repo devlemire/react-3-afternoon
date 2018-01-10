@@ -18,7 +18,8 @@
 
 #Search__icon {
   font-size: 20px;
-  position: relative;
-  right: 30px;
+  position: absolute;
+  top: 6px;
+  right: 12px;
   cursor: pointer;
 }
