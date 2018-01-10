@@ -6,7 +6,7 @@
 }
 
 .Header__content {
-  width: 1300px;
+  width: 1000px;
   height: 100%;
   margin: 0 auto;
   display: flex;
@@ -20,7 +20,7 @@
   font-size: 18px;
   display: flex;
   align-items: center;
-  margin: 0px 10px;
+  margin-right: 10px;
 }
 
 #Header__company-icon {

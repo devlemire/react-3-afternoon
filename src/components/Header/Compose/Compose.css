@@ -2,7 +2,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  margin: 0px 10px;
+  margin-left: 10px;
 }
 
 .Compose__content button {

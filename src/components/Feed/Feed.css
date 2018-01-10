@@ -1,0 +1,7 @@
+.Feed__parent {
+  width: 700px;
+  min-height: calc( 100vh - 90px );
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block;
+}
