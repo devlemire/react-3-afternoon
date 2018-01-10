@@ -2,13 +2,14 @@
   height: 100%;
   display: flex;
   align-items: center;
+  margin: 0px 10px;
 }
 
 .Search__parent input {
   border-radius: 21px;
   border: 1px solid #2aabe2;
   outline: none;
-  padding: 8px 34px 8px 12px;
+  padding: 9px 34px 8px 12px;
   font-size: 12px;
 }
 

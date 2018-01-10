@@ -1,0 +1,23 @@
+.Compose__parent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+}
+
+.Compose__content button {
+  border-radius: 21px;
+  background-color: #2aabe2;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+#Compose__icon {
+  font-size: 20px;
+  margin-right: 4px;
+}

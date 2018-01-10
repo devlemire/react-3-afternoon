@@ -3,8 +3,10 @@ import React, { Component } from 'react';
 import './Header.css';
 
 import CompanyIcon from 'react-icons/lib/md/filter-hdr';
+import ProfileIcon from 'react-icons/lib/md/person-outline';
 
 import Search from './Search/Search';
+import Compose from './Compose/Compose';
 
 export default class Header extends Component {
   render() {
@@ -17,7 +19,16 @@ export default class Header extends Component {
             <span>Social Mountain</span>
           </div>
 
-          <Search />
+
+          <div className="Header__right">
+            <Search />
+
+            <div className="Header__profile">
+              <ProfileIcon />
+            </div>
+
+            <Compose />
+          </div>
 
         </section>
       </section>
