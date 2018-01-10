@@ -6,7 +6,7 @@ import CompanyIcon from 'react-icons/lib/md/filter-hdr';
 import ProfileIcon from 'react-icons/lib/md/person-outline';
 
 import Search from './Search/Search';
-import Compose from './Compose/Compose';
+// import Compose from './Compose/Compose';
 
 export default class Header extends Component {
   render() {
@@ -27,7 +27,7 @@ export default class Header extends Component {
               <ProfileIcon />
             </div>
 
-            <Compose />
+            {/* { <Compose /> */}
           </div>
 
         </section>
