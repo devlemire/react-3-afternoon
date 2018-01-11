@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-
-import './Header.css';
-
 import CompanyIcon from 'react-icons/lib/md/filter-hdr';
 import ProfileIcon from 'react-icons/lib/md/person-outline';
 
+import './Header.css';
+
 import Search from './Search/Search';
-// import Compose from './Compose/Compose';
 
 export default class Header extends Component {
   render() {
@@ -26,8 +24,6 @@ export default class Header extends Component {
             <div className="Header__profile">
               <ProfileIcon />
             </div>
-
-            {/* { <Compose /> */}
           </div>
 
         </section>

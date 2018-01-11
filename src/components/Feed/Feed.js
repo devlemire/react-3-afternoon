@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-
-import './Feed.css';
-
 import Post from './Post/Post';
 import Compose from './Compose/Compose';
+
+import './Feed.css';
 
 export default class Feed extends Component {
   render() {
