@@ -18,7 +18,7 @@ export default class Compose extends Component {
         </div>
 
         <div className="Compose__bottom">
-
+          <button>Compose</button>
         </div>
       </section>
     )

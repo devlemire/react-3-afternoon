@@ -1,6 +1,6 @@
 .Compose__parent {
   width: 100%;
-  height: 75px;
+  /* height: 75px; */
   background-color: #FFF;
   border-radius: 5px;
   margin-bottom: 30px;
@@ -36,4 +36,19 @@
   padding: 8px;
   width: 100%;
   outline: none;
+}
+
+.Compose__bottom {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Compose__bottom button {
+  color: #FFF;
+  background-color: #2aabe2;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
 }
